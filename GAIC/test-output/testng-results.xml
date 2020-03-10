@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-10T22:29:11 SGT" name="Suite" finished-at="2020-03-10T22:30:22 SGT" duration-ms="70711">
+    <groups>
+    </groups>
+    <test started-at="2020-03-10T22:29:11 SGT" name="test" finished-at="2020-03-10T22:29:11 SGT" duration-ms="31">
+    </test> <!-- test -->
+    <test started-at="2020-03-10T22:29:11 SGT" name="Homepage Testing " finished-at="2020-03-10T22:29:44 SGT" duration-ms="32766">
+      <class name="mapSYNQ.HomePage">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:mapSYNQ.HomePage@26adfd2d]" started-at="2020-03-10T22:29:11 SGT" name="basePageNavigation" data-provider="getData" finished-at="2020-03-10T22:29:26 SGT" duration-ms="15423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[groups@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:mapSYNQ.HomePage@26adfd2d]" started-at="2020-03-10T22:29:26 SGT" name="basePageNavigation" data-provider="getData" finished-at="2020-03-10T22:29:43 SGT" duration-ms="16836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[groups123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:mapSYNQ.HomePage@26adfd2d]" started-at="2020-03-10T22:29:43 SGT" name="teardown" finished-at="2020-03-10T22:29:44 SGT" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mapSYNQ.HomePage -->
+    </test> <!-- Homepage Testing  -->
+    <test started-at="2020-03-10T22:29:44 SGT" name="validtaing registration" finished-at="2020-03-10T22:30:02 SGT" duration-ms="18365">
+      <class name="mapSYNQ.ValidateRegistrationForm">
+        <test-method signature="validateRegistration()[pri:0, instance:mapSYNQ.ValidateRegistrationForm@39b43d60]" started-at="2020-03-10T22:29:44 SGT" name="validateRegistration" finished-at="2020-03-10T22:30:02 SGT" duration-ms="18354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistration -->
+      </class> <!-- mapSYNQ.ValidateRegistrationForm -->
+    </test> <!-- validtaing registration -->
+    <test started-at="2020-03-10T22:30:03 SGT" name="Validate searching " finished-at="2020-03-10T22:30:22 SGT" duration-ms="18866">
+      <class name="mapSYNQ.SearchText">
+        <test-method signature="validateSearching()[pri:0, instance:mapSYNQ.SearchText@239105a8]" started-at="2020-03-10T22:30:03 SGT" name="validateSearching" finished-at="2020-03-10T22:30:22 SGT" duration-ms="18864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearching -->
+      </class> <!-- mapSYNQ.SearchText -->
+    </test> <!-- Validate searching  -->
+  </suite> <!-- Suite -->
+</testng-results>
