@@ -1,0 +1,5 @@
+com\csr\pages\AcademicPage.class
+com\csr\pages\HomePage.class
+com\csr\factory\DriverFactory.class
+com\csr\pages\LoginPage.class
+com\csr\utill\ConfigReader.class
